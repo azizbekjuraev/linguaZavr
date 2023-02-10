@@ -17,13 +17,14 @@ a {
 li {
   list-style: none;
 }
-.col-lg-6 {
+/* .col-lg-6 {
+ 
+} */
+.holder {
+  position: relative;
   width: 50%;
   margin: auto;
   align-items: center;
-}
-.holder {
-  position: relative;
 }
 
 .social-container {
@@ -62,11 +63,4 @@ li {
   font-family: "Bebas Neue", cursive;
   font-size: 2.5rem;
   color: #666;
-}
-
-@media (min-width: 992px) {
-  .col-lg-6 {
-    flex: 0 0 auto;
-    /* width: 30%; */
-  }
 }
