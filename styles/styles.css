@@ -51,7 +51,7 @@ a {
   font-family: "Bebas Neue", cursive;
 }
 .title-img {
-  width: 50%;
+  width: 80%;
   margin-left: 1rem;
 }
 .generic_price_btn a {
@@ -102,7 +102,13 @@ a {
     width: 100%;
     margin: auto;
   }
-  body {
+  /* body {
     min-width: 585px;
+  } */
+}
+
+@media (max-width: 440px) {
+  .mt-4 h1 {
+    font-size: 2rem;
   }
 }
