@@ -1,0 +1,108 @@
+/* tags */
+/* body {
+  
+} */
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/* id */
+#bosh-sahifa {
+  background-color: #0f6292;
+  height: auto;
+}
+
+#kurslar {
+  position: relative;
+}
+
+/* class */
+.navbar-brand {
+  font-family: "Cinzel", serif;
+  font-size: 30px;
+}
+.navbar-brand:hover {
+  color: #ffed00;
+}
+.navbar {
+  padding: 2rem 5rem;
+}
+.nav-link:hover {
+  color: #ffed00;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.main {
+  padding: 1rem;
+  align-items: center;
+  margin-top: 3rem;
+  margin-left: 1.5rem;
+  padding-bottom: 12rem;
+}
+
+.mt-4 h1 {
+  line-height: 1.5;
+  padding: 2rem;
+  font-size: 3rem;
+  color: #fff;
+  font-family: "Bebas Neue", cursive;
+}
+.title-img {
+  width: 80%;
+  margin-left: 1rem;
+}
+.generic_price_btn a {
+  border: 1px solid #ffed00;
+  color: black;
+}
+.royhat_btn {
+  /* background-color: #2ecc71; */
+  background-color: #fff;
+  /* color: #fff; */
+  border-radius: 50px;
+  border: 3px solid rgb(255, 237, 0);
+  display: inline-block;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+
+  padding: 12px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 2rem;
+}
+.royhat_btn:hover {
+  background-color: #ffed00;
+}
+.royhat_btn a {
+  color: black;
+}
+
+@media (max-width: 980px) {
+  .arrows {
+    display: none;
+  }
+  .main {
+    margin-top: 0;
+    font-size: 1rem;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 0;
+    margin: auto;
+  }
+  .mt-4 {
+    margin-top: 0 !important;
+  }
+  .royhat_btn {
+    margin: auto;
+  }
+  .title-img {
+    width: 100%;
+    margin: auto;
+  }
+  body {
+    min-width: 585px;
+  }
+}

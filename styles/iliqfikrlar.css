@@ -1,0 +1,21 @@
+/* id selectors */
+
+#iliq-fikrlar {
+  background-color: #0f6292;
+  color: #fff;
+  padding: 7% 15%;
+}
+
+/* class selectors */
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 1rem;
+}
+.testimonial-text {
+  padding-bottom: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+.testimonial-text em {
+  font-family: "Montserrat", sans-serif;
+}

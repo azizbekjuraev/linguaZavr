@@ -1,0 +1,72 @@
+/* .map-form {
+  gap: 5rem;
+} */
+/* .map-container {
+  width: 40%;
+} */
+.contact-info {
+  background-color: #0f6292;
+  width: auto;
+  padding: 2rem;
+  color: #fff;
+}
+
+a {
+  color: #183153;
+}
+li {
+  list-style: none;
+}
+.col-lg-6 {
+  width: 50%;
+  margin: auto;
+  align-items: center;
+}
+.holder {
+  position: relative;
+}
+
+.social-container {
+  position: absolute;
+  left: -63%;
+  top: 25%;
+  background-color: #ffed00;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  /* padding: 1rem; */
+}
+.social-container li {
+  margin: 1rem;
+  cursor: pointer;
+}
+.social-container a:hover {
+  color: #0f6292;
+}
+
+.form-control {
+  margin: 1rem;
+  border-radius: 1rem;
+  border: 2px solid rgb(255, 237, 0);
+}
+.submit-btn {
+  padding: 12px 30px;
+  border: 2px solid rgb(255, 237, 0);
+  border-radius: 50px;
+}
+.submit-btn:hover {
+  background-color: #ffed00;
+}
+.contact-form h2 {
+  margin-left: 1rem;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  font-size: 2.5rem;
+  color: #666;
+}
+
+@media (min-width: 992px) {
+  .col-lg-6 {
+    flex: 0 0 auto;
+    /* width: 30%; */
+  }
+}
