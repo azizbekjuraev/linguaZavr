@@ -111,4 +111,7 @@ a {
   .mt-4 h1 {
     font-size: 2rem;
   }
+  .navbar {
+    padding: 1.5rem;
+  }
 }
