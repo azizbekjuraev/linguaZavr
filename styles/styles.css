@@ -21,8 +21,8 @@ a {
 /* class */
 
 .linguaZavr-logo {
-  width: 4%;
-  margin-right: 8px;
+  width: 35px;
+  margin-right: 4px;
   border: 1px solid white;
   border-radius: 100%;
 }
@@ -113,8 +113,12 @@ a {
     min-width: 585px;
   } */
 }
-
-@media (max-width: 440px) {
+@media (max-width) {
+  .navbar-brand {
+    font-size: 10px;
+  }
+}
+@media (max-width: 510px) {
   .mt-4 h1 {
     font-size: 2rem;
   }
