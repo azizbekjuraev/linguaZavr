@@ -113,11 +113,7 @@ a {
     min-width: 585px;
   } */
 }
-@media (max-width) {
-  .navbar-brand {
-    font-size: 10px;
-  }
-}
+
 @media (max-width: 510px) {
   .mt-4 h1 {
     font-size: 2rem;
@@ -125,4 +121,13 @@ a {
   .navbar {
     padding: 1.5rem;
   }
+  .navbar-brand {
+    font-size: 15px;
+  }
 }
+
+/* @media (max-width: 380px) {
+  .navbar-brand a {
+    font-size: 1px;
+  }
+} */
