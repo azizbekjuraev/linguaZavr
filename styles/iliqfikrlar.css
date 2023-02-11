@@ -6,6 +6,11 @@
   padding: 7% 15%;
 }
 
+#iliq {
+  color: #ffed00;
+  padding-bottom: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
 /* class selectors */
 .testimonial-image {
   width: 10%;
