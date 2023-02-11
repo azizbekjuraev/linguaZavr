@@ -126,8 +126,8 @@ a {
   }
 }
 
-/* @media (max-width: 380px) {
-  .navbar-brand a {
-    font-size: 1px;
+@media (max-width: 340px) {
+  .mt-4 h1 {
+    padding: 0;
   }
-} */
+}
