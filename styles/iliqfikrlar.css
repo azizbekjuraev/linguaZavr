@@ -13,9 +13,9 @@
 }
 /* class selectors */
 .testimonial-image {
-  width: 10%;
-  border-radius: 100%;
-  margin: 1rem;
+  width: auto;
+  /* border-radius: 100%; */
+  /* margin: 1rem; */
 }
 .testimonial-text {
   padding-bottom: 1rem;

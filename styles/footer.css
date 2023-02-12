@@ -1,3 +1,7 @@
 .footer {
   background-color: #0f6292;
 }
+
+.footer-b:hover {
+  background-color: #ffed00;
+}
